@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        int liczba = 1, liczba1 = 1;
+//        int liczba = 1, liczba1 = 1;
 //
 //        System.out.println("Hello world " + liczba);
 //
@@ -45,6 +47,26 @@ public class Main {
 //                System.out.println("są  takie same");
 //            }
 //        }
+
+        Scanner scan = new Scanner(System.in);
+//        String userInput = scan.nextLine();
+//
+//        System.out.println(userInput);
+
+        System.out.println("podaj imie");
+        String imie = scan.nextLine();
+
+        System.out.println("podaj nazwisko");
+
+        String nazwisko = scan.nextLine();
+
+        System.out.println("ile masz lat?");
+
+        int wiek = scan.nextInt();
+
+        System.out.println("masz na imie i nazwisko K" + imie + " " + nazwisko + " masz lat " + wiek);
+
+
 
     }
 
